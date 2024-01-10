@@ -1,0 +1,141 @@
+body {
+  width: 350px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding-top: 20px;
+  overflow: auto;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  padding-bottom: 330px;
+  padding-top: 20px;
+  
+}
+
+
+/* Logo control */
+
+.logo {
+  width: 100px;
+  height: 30px;
+  padding-top: 35px;
+  background: url('accessifylogo.png') no-repeat center center;
+  background-size: cover;
+}
+
+/* blackline under logo */
+
+.wrapper{
+  border-bottom: 1px black solid;
+  width: 350px;
+  padding-bottom: 15px;
+  display:flex;
+  place-content: center;
+
+}
+
+
+/* h1  */
+
+h1 {
+  color: black;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+div {
+  margin-bottom: 14px;
+  padding-bottom: 15px;
+}
+
+.warning {
+  position: relative;
+  display: inline-block;
+  color: red;
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 90%;
+  margin-top: 10px;
+}
+
+.mode {
+  margin-top: 10px;
+}
+
+.slider2 input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 80%;
+  height: 8px;
+  background-color: black;
+  border-radius: 4px;
+  outline: none;
+}
+
+.slider2 input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.slider1 input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 80%;
+  height: 8px;
+  background-color: black;
+  border-radius: 4px;
+  outline: none;
+}
+
+.slider1 input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.fontdropdown select {
+  width: 200px; 
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  color: black;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.fontdropdown select:hover {
+  background-color: #eaeaea;
+}
+
+.fontdropdown select:focus {
+  background-color: #f7f7f7;
+  box-shadow: 0 0 5px #aaaaaa;
+}
+
+.fontdropdown select option {
+  font-size: 16px;
+}
+
+/*.material-symbols-outlined{ */
+  /* margin-right: 74px;  */
+/*}

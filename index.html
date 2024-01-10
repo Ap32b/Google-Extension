@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Accessify Text Customizer</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <script src="popup.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="logo"></div>
+  </div>
+  <h1></h1>
+  <div class="slider2">
+    <span class="material-symbols-outlined">
+      format_size
+    </span>
+    <input type="range" id="wordSize" min="10" max="50" step="1" value="16">
+  </div>
+  <div class="slider1">
+    <span class="material-symbols-outlined">
+      width
+    </span>
+    <input type="range" id="letterSpacing" min="-5" max="20" step="1" value="0">
+  </div>
+  <div>
+    <span class="material-symbols-outlined">
+      palette
+    </span>
+    <input type="color" id="textColor" value="#000000">
+  </div>
+  <div class="fontdropdown">
+    <p class="fontselectorheader"></p>
+    <span class="material-symbols-outlined">
+      menu
+    </span>
+    <label for="fontFamily"></label>
+    <select id="fontFamily">
+      <option value="Arial">Arial</option>
+      <option value="Helvetica">Helvetica</option>
+      <option value="Verdana">Verdana</option>
+      <option value="Times New Roman">Times New Roman</option>
+      <option value="Courier New">Courier New</option>
+      <option value="Georgia">Georgia</option>
+      <option value="Palatino">Palatino</option>
+      <option value="Garamond">Garamond</option>
+      <option value="Bookman">Bookman</option>
+      <option value="Comic Sans MS">Comic Sans MS</option>
+      <option value="Trebuchet MS">Trebuchet MS</option>
+      <option value="Arial Black">Arial Black</option>
+      <option value="Impact">Impact</option>
+      <option value="Lucida Sans Unicode">Lucida Sans Unicode</option>
+      <option value="Verdana">Verdana</option>
+      <option value="Courier New">Courier New</option>
+      <option value="Lucida Console">Lucida Console</option>
+      <option value="Roboto">Roboto</option>
+      <option value="Open Sans">Open Sans</option>
+      <option value="Lato">Lato</option>
+      <option value="Montserrat">Montserrat</option>
+      <option value="Raleway">Raleway</option>
+      <option value="Oswald">Oswald</option>
+      <option value="Ubuntu">Ubuntu</option>
+      <option value="Pacifico">Pacifico</option>
+      <option value="Playfair Display">Playfair Display</option>
+      <!-- Add more font options here -->
+    </select>
+    
+  </div>
+  <footer>
+    <p></p>
+  </footer>
+</body>
+</html>
